@@ -1,0 +1,88 @@
+body {
+  background-image: url(https://wallpapercave.com/wp/wp4064849.jpg);
+  background-repeat: no-repeat;
+  background-color: #000;
+  background-size:auto;
+  background-position-x: center;
+	color: #111;
+	font: 18px Baskerville, "Palatino Linotype", "Times New Roman", Times, serif;
+	text-align: center;
+  max-height: 110%;
+  width: auto;
+}
+header {
+  height: 150px;
+  width:55%;
+}
+h1, main, p {
+  margin: 0;
+  padding: 0;
+}
+h1 {
+	font-size: 38px;
+	line-height: 1.2;
+	margin-bottom: 10px;
+	}
+address {
+	font-size: 20px;
+	font-style: italic;
+	margin-bottom: 30px;
+}
+address:before {
+  content: '— ';
+}       
+address:after {
+  content: ' —';
+}
+p {
+	line-height: 1.5;
+	margin-bottom: 15px;
+}
+.p1 {
+  position: fixed;
+  left: 22%;
+  top: 16%;
+  width: 250px;
+}
+.p2 {
+  position: fixed;
+  left: 22%;
+  top: 35%;
+  width: 250px;
+}
+.p3 {
+  position: fixed;
+  left: 22%;
+  top: 55%;
+  width: 250px;
+}
+.p4 {
+  position: fixed;
+  right: 22%;
+  top: 16%;
+  width: 250px;
+}
+.p5 {
+  position: fixed;
+  right: 22%;
+  top: 35%;
+  width: 250px;
+}
+.p6 {
+  position: fixed;
+  right: 22%;
+  top: 55%;
+  width: 250px;
+}
+.p1:first-letter {
+  float: left;
+  font-size: 22px;
+  line-height: 1;
+  margin: 2px 2px 0 0;
+  
+}
+#poem {
+  margin: auto;
+	text-align: left;
+	width: 250px;
+}
